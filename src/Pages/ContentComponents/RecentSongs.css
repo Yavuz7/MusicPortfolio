@@ -1,0 +1,7 @@
+#MusicGrid{
+    display:inline-grid;
+    column-gap: 2.5rem;
+    row-gap: 2.5rem;
+    grid-template-columns: repeat(2,max-content);
+
+}

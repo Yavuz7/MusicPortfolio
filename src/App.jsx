@@ -1,4 +1,4 @@
-import Homepage from './Pages/HomepageStuff/Homepage'
+import Homepage from './Pages/MainPages/Homepage'
 import './App.css'
 
 function App() {
