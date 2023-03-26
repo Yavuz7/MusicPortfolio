@@ -1,5 +1,6 @@
 .myNav{
-    font-size: 25px;
-    float:left;
-    text-align: center;
+    left:2rem;
+    top:7.2rem;
+    width: 20%;
+    height: fit-content;
 }

@@ -1,7 +1,11 @@
 #MusicGrid{
     display:inline-grid;
-    column-gap: 2.5rem;
-    row-gap: 2.5rem;
+    float:right;
+    left:35%;
+    top: 25%;
+    position: absolute;
+    column-gap: 5.5rem;
+    row-gap: 3.5rem;
     grid-template-columns: repeat(2,max-content);
 
 }
