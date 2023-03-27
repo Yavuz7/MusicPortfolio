@@ -6,12 +6,13 @@ import Container from 'react-bootstrap/Container';
 export default function NavigationBar(){
     return (
        <>
-       <Container className="position-absolute myNav">
-    <Navbar bg="light" expand="lg" fixed = "left" className="myNav flex-column">
-          <Nav justify className="me-auto flex-column fs-2 w-100" variant="pills">
-            <Nav.Link href="#home" className="">Home</Nav.Link>
-            <Nav.Link href="#about" className="">About Me</Nav.Link>
-            <Nav.Link href="#contact" className="">Contact Me</Nav.Link>
+       <Container className="position-absolute border-radius myNav">       
+    <Navbar bg="none" expand="lg" fixed = "left" className="w-25 flex-column border-radius">       
+          <Nav defaultActiveKey="#home" justify className="me-auto flex-column fs-2 w-100 border-radius" variant="pills">     
+            <Nav.Link href="#home" className="text-light">Home</Nav.Link>
+            <Nav.Link href="#about" className="text-light">About Me</Nav.Link>
+            <Nav.Link href="#contact" className="text-light">Contact Me</Nav.Link>
+            <div className="navBg"></div>
           </Nav>
     </Navbar>
     </Container>

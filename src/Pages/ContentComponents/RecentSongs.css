@@ -1,8 +1,8 @@
 #MusicGrid{
     display:inline-grid;
     float:right;
-    left:35%;
-    top: 25%;
+    left:30%;
+    top: 45%;
     position: absolute;
     column-gap: 5.5rem;
     row-gap: 3.5rem;

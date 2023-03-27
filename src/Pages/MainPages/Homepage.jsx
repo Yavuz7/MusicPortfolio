@@ -1,11 +1,14 @@
 import RecentSongs from "../ContentComponents/RecentSongs"
 import NavigationBar from "../EveryPageStuff/NavigationBar"
+import WebsiteHeader from "../EveryPageStuff/WebsiteHeader"
+import NavBarMusic from "../EveryPageStuff/NavBarMusic"
 
 export default function Homepage(){
     return (
        <div id='Home'>
-        <h2>Welcome To EggLand</h2> 
         <NavigationBar/>
+        <NavBarMusic/>
+        <WebsiteHeader/> 
         <RecentSongs/>
         
        </div>

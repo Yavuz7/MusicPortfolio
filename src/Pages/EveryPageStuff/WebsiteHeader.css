@@ -1,0 +1,16 @@
+.headerBg{
+    position:absolute;
+    z-index: -1;
+    top:5%;
+    left:30%;
+    height: 20vh;
+    width: 50vw;
+    background-color: #555;
+    border-radius: .25rem;
+}
+h2{
+    position: relative;
+    top:25%;
+    color:white;
+    font-size: 2.2rem !important;
+}
