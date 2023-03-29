@@ -14,10 +14,10 @@ export default function Homepage(){
             <Col><NavigationBar/></Col>
             <Col><WebsiteHeader/> </Col>                      
         </Row>
-        <Row>
+        <Row className="px-4 my-5 xs={3}">
             <Col><NavBarMusic/></Col>       
         </Row>
-        <Row>
+        <Row className="pt-5">
             <RecentSongs/>
         </Row>
         </Container>

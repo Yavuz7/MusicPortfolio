@@ -6,24 +6,27 @@ import Col from 'react-bootstrap/Col';
 
 export default function RecentSongs(){
     return (
-       <Container>
-        <Row>
-            <Col>
-            <MusicCards/> 
+       <Container className="">
+        <Row className="my-5 float-end position-relative start-0 ">       
+            <Col className="pe-5">
+                <MusicCards/> 
             </Col>  
-            <Col>
-            <MusicCards/> 
-            </Col>         
+            <Col className="spacer">
+                <MusicCards/> 
+            </Col>   
+            <Col className="spacer pe-5 col-8"></Col>
+            <Col className="spacer pe-5 col-8"></Col>        
         </Row>
-        <Row>
-            <Col>
-            <MusicCards/> 
-            </Col>
-            <Col>
-            <MusicCards/> 
-            </Col>
-             
-        </Row> 
+        <Row className="my-5 float-end position-relative start-0 ">       
+            <Col className="pe-5">
+                <MusicCards/> 
+            </Col>  
+            <Col className="spacer">
+                <MusicCards/> 
+            </Col>   
+            <Col className="spacer pe-5 col-8"></Col>
+            <Col className="spacer pe-5 col-8"></Col>        
+        </Row>
        </Container>
     )
 }
