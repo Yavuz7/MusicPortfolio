@@ -9,3 +9,11 @@
     grid-template-columns: repeat(2,max-content);
 
 }
+
+.card{
+    transition: all 1s;
+}
+.card:hover{
+    background-color:antiquewhite;
+    transition: all 1.2s;
+}

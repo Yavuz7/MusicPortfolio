@@ -7,6 +7,8 @@ import { Route,Routes, Link,BrowserRouter } from "react-router-dom";
 import AboutMePage from "../MainPages/AboutMePage";
 import Homepage from "../MainPages/Homepage";
 import ContactPage from "../MainPages/ContactPage";
+import { NavItem } from "react-bootstrap";
+
 
 export default function NavigationBar(){
     return (
@@ -14,15 +16,20 @@ export default function NavigationBar(){
        <BrowserRouter>  
        <Container className="position-absolute border-radius myNav">       
          <Navbar bg="none" expand="lg" fixed = "left" className="w-25 flex-column border-radius">       
-          <Nav defaultActiveKey="#home" justify className="me-auto flex-column fs-2 w-100 border-radius">     
+          <Nav defaultActiveKey="#home" justify className="me-auto flex-column fs-2 w-100 border-radius"> 
+          <NavItem>
             <Nav.Link as={Link} to="/" className="text-light">Home</Nav.Link>
+         </NavItem>
+         <NavItem>
             <Nav.Link as={Link} to="/aboutme" className="text-light">About Me</Nav.Link>
-            <Nav.Link as={Link} to="/contact" className="text-light">Contact Me</Nav.Link>
+         </NavItem>
+         <NavItem>
+            <Nav.Link as={Link} to="/contact" className="text-light">Contact Me</Nav.Link>  
+         </NavItem>        
             <div className="navBg"></div>
           </Nav>
          </Navbar>
       </Container>
-      
          <Routes>
             <Route exact path="/" element={<Homepage/>}/>
             <Route path="/aboutme" element={<AboutMePage/>}/>
