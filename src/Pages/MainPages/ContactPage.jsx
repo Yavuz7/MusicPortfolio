@@ -1,13 +1,10 @@
-import RecentSongs from "../ContentComponents/RecentSongs"
-import NavigationBar from "../EveryPageStuff/NavigationBar"
 import WebsiteHeader from "../EveryPageStuff/WebsiteHeader"
-import NavBarMusic from "../EveryPageStuff/NavBarMusic"
 import MyFooter from "../EveryPageStuff/MyFooter"
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-export default function Homepage(){
+export default function ContactPage(){
     return (
        <div id='Home'>
         <Container fluid ="md">
@@ -15,14 +12,10 @@ export default function Homepage(){
             <Col><WebsiteHeader/> </Col>                      
         </Row>
 
-        <Row className="px-4 my-5 xs={3}">
-            <Col><NavBarMusic/></Col>       
-        </Row>
-
         <Row className="pt-5">
-            <RecentSongs/>
+           <p>Hello Luigi</p>
         </Row>
-
+        
         </Container>
         <MyFooter/>
        </div>
