@@ -1,6 +1,7 @@
 import WebsiteHeader from "../EveryPageStuff/WebsiteHeader"
 import MyFooter from "../EveryPageStuff/MyFooter"
 import Container from 'react-bootstrap/Container';
+import AboutMeContent from "../ContentComponents/AboutMeContent";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
@@ -13,7 +14,7 @@ export default function AboutMePage(){
         </Row>
 
         <Row className="pt-5">
-           <p>Hello Mario</p>
+           <AboutMeContent/>
         </Row>
         
         </Container>

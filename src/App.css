@@ -9,9 +9,14 @@
   --other-bg-color-hover:rgba(0, 176, 176, 0.292);
   --other-bg-border-color:rgba(0, 255, 255, 0.24);
 }
+html{
+  height:100%;
+}
 body {
   overflow-x: hidden;
   background:linear-gradient(.85turn,rgb(97, 23, 0),15%,rgb(50, 25, 24))  !important;
+  height:100%;
+
 }
 
 .logo {
