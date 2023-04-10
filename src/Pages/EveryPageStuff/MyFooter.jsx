@@ -8,6 +8,7 @@ export default function MyFooter() {
                 <li>&#169; 2023 Yavuz Yurtseven</li>
                 <li>Terms Of Service</li>
                 <li>Privacy Notice</li>
+                <img alt="egg"></img>
             </ul>
         </footer>
         </>

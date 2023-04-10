@@ -2,10 +2,12 @@ ul{
     list-style-type: none;
     display: flex;
     margin:auto;
-    justify-content: center;
+    justify-content: space-between;
+    font-size: larger;
+    font-weight: bold;
+    
 }
 li{
-    
-    padding:0 6vw;
+   padding:0 5vw;
     text-align: center;
 }
