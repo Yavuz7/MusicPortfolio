@@ -26,7 +26,6 @@ export default function NavigationBar(){
          <NavItem>
             <Nav.Link as={Link} to="/contact" className="text-light">Contact Me</Nav.Link>  
          </NavItem>        
-            <div className="navBg"></div>
           </Nav>
          </Navbar>
       </Container>

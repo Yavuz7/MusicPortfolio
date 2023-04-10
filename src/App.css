@@ -4,8 +4,13 @@
   padding: 2rem;
   text-align: center;
 }
+:root{
+  --other-bg-color : rgb(0, 57, 57);
+  --other-bg-color-hover: rgb(0, 109, 109);
+}
 body {
   overflow-x: hidden;
+  background-color: grey !important;
 }
 
 .logo {

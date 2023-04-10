@@ -5,8 +5,9 @@
     left:30%;
     height: 20%;
     width: 50vw;
-    background-color: #555;
+    background-color: var(--other-bg-color);
     border-radius: .25rem;
+    border: aqua 1px solid;
 }
 h2{
     position: relative;

@@ -1,19 +1,12 @@
-#MusicGrid{
-    display:inline-grid;
-    float:right;
-    left:30%;
-    top: 45%;
-    position: absolute;
-    column-gap: 5.5rem;
-    row-gap: 3.5rem;
-    grid-template-columns: repeat(2,max-content);
 
-}
 
 .card{
     transition: all 1s;
+    background-color:var(--other-bg-color) !important;
+    color:white;
+    outline:aqua 1px solid;
 }
 .card:hover{
-    background-color:antiquewhite;
-    transition: all 1.2s;
+    background-color:var(--other-bg-color-hover) !important;
+    transition: all .85s;
 }

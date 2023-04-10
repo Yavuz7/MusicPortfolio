@@ -8,20 +8,20 @@ export default function RecentSongs(){
     return (
        <Container className="">
         <Row className="my-5 float-end position-relative start-0 ">       
-            <Col className="pe-5">
+            <Col className="mt-3">
                 <MusicCards/> 
             </Col>  
-            <Col className="spacer">
+            <Col className="mt-3">
                 <MusicCards/> 
             </Col>   
             <Col className="spacer pe-5 col-8"></Col>
             <Col className="spacer pe-5 col-8"></Col>        
         </Row>
-        <Row className="my-5 float-end position-relative start-0 ">       
-            <Col className="pe-5">
+        <Row className="mt-3 mb-5 float-end position-relative start-0 ">       
+            <Col className="">
                 <MusicCards/> 
             </Col>  
-            <Col className="spacer">
+            <Col className="">
                 <MusicCards/> 
             </Col>   
             <Col className="spacer pe-5 col-8"></Col>
