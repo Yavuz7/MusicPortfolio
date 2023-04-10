@@ -6,12 +6,13 @@
 }
 .nav-link{
     background-color: var(--other-bg-color);
-    border: aqua 1px solid;
+    border: var(--other-bg-border-color) 1px solid;
     border-radius: .25rem;
+    transition: all .75s;
 }
 .nav-link:hover{
     border-radius: .25rem;
-    background-color: var(--other-bg-color-hover);
-    transition: all .75ms;
+    background:var(--other-bg-color-hover);
     outline: aqua 1px solid;
+    transition: all .25s;
 }

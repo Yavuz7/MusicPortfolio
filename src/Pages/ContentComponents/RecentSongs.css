@@ -2,11 +2,19 @@
 
 .card{
     transition: all 1s;
-    background-color:var(--other-bg-color) !important;
+    background:var(--other-bg-color) !important;
     color:white;
-    outline:aqua 1px solid;
+    outline:var(--other-bg-border-color) 1px solid;
+    transition:all 1s;
 }
-.card:hover{
-    background-color:var(--other-bg-color-hover) !important;
+.card div:not(.musicPlayer){
+    outline:var(--other-bg-border-color) 2px solid;
+    border-radius: .25rem;
+    transition:all 1s;
+}
+
+.card:hover, .card:hover div:not(.musicPlayer){
+    outline:aqua 1px solid;
+    background:var(--other-bg-color-hover) !important;
     transition: all .85s;
 }

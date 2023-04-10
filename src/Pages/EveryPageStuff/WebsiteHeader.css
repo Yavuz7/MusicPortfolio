@@ -5,9 +5,16 @@
     left:30%;
     height: 20%;
     width: 50vw;
-    background-color: var(--other-bg-color);
+    background: var(--other-bg-color);
     border-radius: .25rem;
+    border: var(--other-bg-border-color) 1px solid;
+    z-index: 4;
+    transition: all .75s;
+}
+.headerBg:hover{
+    background: var(--other-bg-color-hover);
     border: aqua 1px solid;
+    transition: all .25s;
 }
 h2{
     position: relative;

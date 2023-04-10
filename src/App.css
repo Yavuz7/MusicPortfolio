@@ -5,12 +5,13 @@
   text-align: center;
 }
 :root{
-  --other-bg-color : rgb(0, 57, 57);
-  --other-bg-color-hover: rgb(0, 109, 109);
+  --other-bg-color : rgba(0, 121, 121, 0.116) ;
+  --other-bg-color-hover:rgba(0, 176, 176, 0.292);
+  --other-bg-border-color:rgba(0, 255, 255, 0.24);
 }
 body {
   overflow-x: hidden;
-  background-color: grey !important;
+  background:linear-gradient(.85turn,rgb(97, 23, 0),15%,rgb(50, 25, 24))  !important;
 }
 
 .logo {
