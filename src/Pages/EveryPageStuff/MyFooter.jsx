@@ -1,3 +1,5 @@
+import "../EveryPageStuff/MyFooter.css"
+
 export default function MyFooter() {
     return(
         <>
