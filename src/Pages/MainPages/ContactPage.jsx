@@ -1,4 +1,5 @@
 import WebsiteHeader from "../EveryPageStuff/WebsiteHeader"
+import ContactPageContent from "../ContentComponents/ContactPageContent";
 import MyFooter from "../EveryPageStuff/MyFooter"
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -13,7 +14,7 @@ export default function ContactPage(){
         </Row>
 
         <Row className="pt-5">
-           <p>Hello Luigi</p>
+           <ContactPageContent/>
         </Row>
         
         </Container>

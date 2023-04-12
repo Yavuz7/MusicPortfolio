@@ -5,6 +5,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 export default function RecentSongs(){
+    document.body.style.overflow='auto';
     return (
        <Container className="">
         <Row className="my-5 float-end position-relative start-0 ">       
