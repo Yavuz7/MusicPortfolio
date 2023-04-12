@@ -1,4 +1,3 @@
-import RecentSongs from "../ContentComponents/RecentSongs"
 import NavigationBar from "../EveryPageStuff/NavigationBar"
 import WebsiteHeader from "../EveryPageStuff/WebsiteHeader"
 import NavBarMusic from "../EveryPageStuff/NavBarMusic"
@@ -6,6 +5,7 @@ import MyFooter from "../EveryPageStuff/MyFooter"
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import SongsTemplate from "../EveryPageStuff/SongsTemplate"
 
 export default function Homepage(){
     return (
@@ -16,11 +16,11 @@ export default function Homepage(){
         </Row>
 
         <Row className="px-4 my-5 xs={3}">
-            <Col><NavBarMusic/></Col>       
+            <Col></Col>       
         </Row>
 
         <Row className="pt-5">
-            <RecentSongs/>
+            <SongsTemplate/>
         </Row>
 
         </Container>

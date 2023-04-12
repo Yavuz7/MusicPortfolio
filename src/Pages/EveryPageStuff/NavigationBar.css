@@ -1,8 +1,9 @@
 .myNav{
     left:3rem;
     top:3rem;
-    width: 20%;
     height: fit-content;
+    z-index: 3;
+    max-width: fit-content !important;
 }
 .nav-link{
     background-color: var(--other-bg-color);

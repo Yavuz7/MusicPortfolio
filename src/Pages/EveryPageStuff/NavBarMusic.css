@@ -1,5 +1,6 @@
-.musicBar{
-    position: relative;
-    top:200%;
+.navBarMusic{
+    justify-content: center;
+    z-index: 2;
     left:8%;
+    max-width:fit-content !important;
 }

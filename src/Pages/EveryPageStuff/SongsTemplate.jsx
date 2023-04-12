@@ -1,15 +1,24 @@
-import MusicCards from "../EveryPageStuff/MusicCards"
-import "../ContentComponents/RecentSongs.css"
+import MusicCards from "./MusicCards"
+import "../EveryPageStuff/SongsTemplateStyle.css"
 import Container from 'react-bootstrap/Container';
+import NavBarMusic from "./NavBarMusic";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-export default function RecentSongs(){
+export default function SongsTemplate(){
     document.body.style.overflow='auto';
     return (
        <Container className="">
+        <Row className="mb-4 position-relative">
+            <Col>
+            <Container>
+                <NavBarMusic/>
+            </Container>
+            </Col>
+        
+        </Row>
         <Row className="my-5 float-end position-relative start-0 ">       
-            <Col className="mt-3">
+            <Col className="mt-3">             
                 <MusicCards/> 
             </Col>  
             <Col className="mt-3">
