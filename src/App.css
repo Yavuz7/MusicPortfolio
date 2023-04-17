@@ -7,15 +7,17 @@
 }
 :root{
   --other-bg-color : rgba(0, 121, 121, 0.116) ;
+  --other-bg-color-hover-bright:rgba(0, 219, 219, 0.399);
   --other-bg-color-hover:rgba(0, 176, 176, 0.292);
   --other-bg-border-color:rgba(0, 255, 255, 0.24);
+  --other-bg-color-noopacity: rgba(0, 135, 135, 0.368);
 }
 html{
 bottom: 0;
 }
 body {
   overflow-x: hidden;
-  background:linear-gradient(.85turn,rgb(97, 23, 0),15%,rgb(50, 25, 24))  !important;
+  background:linear-gradient(.95turn,rgb(50, 25, 24),15%,rgb(97, 23, 0))  !important;
   background-repeat:space;
 }
 

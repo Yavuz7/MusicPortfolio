@@ -19,7 +19,7 @@ export default function SongsTemplate(){
         </Row>
         <Row className="my-5 float-end position-relative start-0 ">       
             <Col className="mt-3">             
-                <MusicCards/> 
+                <MusicCards className="musicCardDiv"/> 
             </Col>  
             <Col className="mt-3">
                 <MusicCards/> 

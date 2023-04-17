@@ -7,13 +7,13 @@
     outline:var(--other-bg-border-color) 1px solid;
     transition:all 1s;
 }
-.card div:not(.musicPlayer){
+.musicCardDiv div:not(.musicPlayer){
     outline:var(--other-bg-border-color) 2px solid;
     border-radius: .25rem;
     transition:all 1s;
 }
 
-.card:hover, .card:hover div:not(.musicPlayer){
+.musicCardDiv:hover, .musicCardDiv:hover div:not(.musicPlayer){
     outline:aqua 1px solid;
     background:var(--other-bg-color-hover) !important;
     transition: all .85s;
