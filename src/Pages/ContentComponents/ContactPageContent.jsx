@@ -11,7 +11,7 @@ export default function ContactPageContent() {
     <Container className='AboutMeContainer'>
     <Card className='mt-5 text-start' style={{ width: '55vw', height: '65vh' }}>    
       <Card.Body>
-        <Card.Title>Contact Me</Card.Title>
+        <Card.Title className='fs-4' >Contact Me</Card.Title>
         <Form>
         <Form.Group className='mb-2'>
           <Form.Label>Name</Form.Label>
