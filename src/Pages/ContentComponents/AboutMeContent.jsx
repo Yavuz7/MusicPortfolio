@@ -1,12 +1,12 @@
 import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container'
-import '../ContentComponents/AboutMeContent.css'
+import '../ContentComponents/BaseContentStyleSheet.css'
 
 export default function AboutMeContent() {
    document.body.style.overflow='hidden';
     return(
     <>
-    <Container className='AboutMeContainer'>
+    <Container className='ContentContainer'>
     <Card className= "text-start fs-3 mt-3" style={{ width: '55vw', height: '54vh' }}>    
       <Card.Body>
         <Card.Title className='fs-2' >About Me</Card.Title>

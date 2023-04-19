@@ -2,13 +2,13 @@ import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container'
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
-import '../ContentComponents/AboutMeContent.css'
+import '../ContentComponents/BaseContentStyleSheet.css'
 
 export default function ContactPageContent() {
     document.body.style.overflow='auto';
     return(
     <>
-    <Container className='AboutMeContainer'>
+    <Container className='ContentContainer'>
     <Card className='mt-5 text-start' style={{ width: '55vw', height: '65vh' }}>    
       <Card.Body>
         <Card.Title className='fs-4' >Contact Me</Card.Title>
