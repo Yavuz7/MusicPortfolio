@@ -9,7 +9,7 @@ export default function ContactPageContent() {
     return(
     <>
     <Container className='ContentContainer'>
-    <Card className='mt-5 text-start' style={{ width: '55vw', height: '65vh' }}>    
+    <Card className='mt-5 text-start' style={{ width: '55vw', height: '65vmin' }}>    
       <Card.Body>
         <Card.Title className='fs-4' >Contact Me</Card.Title>
         <Form>

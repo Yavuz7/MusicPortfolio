@@ -17,8 +17,8 @@ bottom: 0;
 }
 body {
   overflow-x: hidden;
-  background:linear-gradient(.95turn,rgb(50, 25, 24),15%,rgb(97, 23, 0))  !important;
-  background-repeat:space;
+  background:linear-gradient(.95turn,rgb(50, 25, 24),45%,rgb(97, 23, 0))  !important;
+  background-repeat:repeat-x;
 }
 
 .logo {

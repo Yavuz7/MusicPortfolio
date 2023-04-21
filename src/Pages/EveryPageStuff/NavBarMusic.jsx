@@ -6,8 +6,8 @@ import  NavItem  from "react-bootstrap/NavItem";
 
 export default function NavBarMusic(){
     return ( 
-       <Container className="navBarMusic border-radius position-relative myNav">           
-          <Nav justify className="mx-auto me-auto fs-2 border-radius"> 
+       <Container className="mt-5 mx-auto navBarMusic border-radius position-relative myNav">           
+          <Nav justify className="mx-5 me-auto fs-2 border-radius"> 
           <NavItem>
             <Nav.Link className="px-5 text-light">Latest</Nav.Link>
          </NavItem>

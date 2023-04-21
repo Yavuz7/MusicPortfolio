@@ -9,7 +9,7 @@ import HomePageFeatureSong from "../ContentComponents/HomePageFeaturedSong";
 export default function Homepage(){
     return (
        <div id='Home'>
-        <Container fluid ="md">
+        <Container fluid ="mx-auto">
         <Row>
             <Col><WebsiteHeader/> </Col>                      
         </Row>
@@ -19,8 +19,9 @@ export default function Homepage(){
             <HomePageFeatureSong/>
             </Col>
         </Row>
-        </Container>
+        
         <MyFooter/>
+        </Container>
        </div>
     )
 }

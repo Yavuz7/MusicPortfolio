@@ -7,7 +7,7 @@ export default function AboutMeContent() {
     return(
     <>
     <Container className='ContentContainer'>
-    <Card className= "text-start fs-3 mt-3" style={{ width: '55vw', height: '54vh' }}>    
+    <Card className= "text-start fs-3 mt-3" style={{ width: '55vw', height: '60vh' }}>    
       <Card.Body>
         <Card.Title className='fs-2' >About Me</Card.Title>
         <Card.Text>
