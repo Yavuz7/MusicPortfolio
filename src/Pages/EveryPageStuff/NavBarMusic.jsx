@@ -4,10 +4,12 @@ import  Container  from "react-bootstrap/Container";
 import Nav from 'react-bootstrap/Nav';
 import  NavItem  from "react-bootstrap/NavItem";
 import MusicCardCreator from "./MusicCardCreator";
+import SongData from "./SongData";
 
 import { useState } from "react";
 
 export default function NavBarMusic(){
+   const[category,setCategory] = useState(0);
     return ( 
       <>
        <Container className="my-5 mx-auto navBarMusic border-radius position-relative myNav">           
@@ -23,7 +25,7 @@ export default function NavBarMusic(){
          </NavItem>        
           </Nav>             
         </Container>
-        <MusicCardCreator/>
+        <MusicCardCreator category={category} data={SongData}/>
         </>
     )
 }
