@@ -25,10 +25,26 @@ margin-bottom: 4vmin !important;
     height: 15vmin;
     position:absolute;
     top:15%;
+  padding-top: 56.25%;
 }
 .featuredCardBody {
     position: relative;
     left:48%;
     top:0%;
     width: 50%;
+    font-size:2.2vmin;
+}
+
+@media screen and (max-width: 600px) {
+    .ContentContainer{
+        margin-top: 80% !important;
+    }
+    .featuredCardBody{
+        width:100%;
+        font-size: 15px;
+    }
+    .featuredPlayer{
+        width: 100% !important;
+        height: 20px !important;
+    }
 }
