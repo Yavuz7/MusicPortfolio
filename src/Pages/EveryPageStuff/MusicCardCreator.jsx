@@ -1,10 +1,10 @@
 import MusicCards from "./MusicCards";
+import SongData from "./SongData";
+import NavBarMusic from "./NavBarMusic";
 
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-import SongData from "./SongData";
-import NavBarMusic from "./NavBarMusic";
 import { useState } from "react";
 
 

@@ -6,7 +6,7 @@ import '../ContentComponents/BaseContentStyleSheet.css'
 import { useState } from 'react';
 
 export default function ContactPageContent(event) {
-    document.body.style.overflow='auto';
+    document.body.style.overflow='hidden';
 
     const [validated, setValidated] = useState(false);
 
@@ -24,7 +24,7 @@ export default function ContactPageContent(event) {
     return(
     <>
     <Container className='ContentContainer'>
-    <Card className='mt-5 text-start' style={{ width: '55vw', height: '65vmin' }}>    
+    <Card className='mt-5 text-start' style={{ width: '55vw', height: '60vmin' }}>    
       <Card.Body>
         <Card.Title className='fs-4' >Contact Me</Card.Title>
         <Form noValidate validated={validated} onSubmit={handleSubmit}>
