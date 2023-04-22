@@ -2,3 +2,15 @@
     z-index: 2;
     max-width:fit-content !important;
 }
+.nL{
+    background-color: var(--other-bg-color) !important;
+    border: var(--other-bg-border-color) 1px solid;
+    border-radius: .25rem;
+    transition: all .75s;
+}
+.nL:hover{
+    border-radius: .25rem;
+    background:var(--other-bg-color-hover);
+    outline: aqua 1px solid;
+    transition: all .25s;
+}

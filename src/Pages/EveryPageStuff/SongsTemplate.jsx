@@ -13,7 +13,7 @@ export default function SongsTemplate(){
         <Row className="mb-4 position-relative">
             <Col>
             <Container>
-                <NavBarMusic/>               
+                <MusicCardCreator/>               
             </Container>
             </Col>     
         </Row>
