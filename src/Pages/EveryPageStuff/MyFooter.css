@@ -5,10 +5,10 @@ ul{
     justify-content: space-between;
     font-size: larger;
     font-weight: bold;
-    
+    float:right;
 }
 li{
-   margin-left:4vw;
+   margin-left:8vw;
    margin-right:2vw;
    padding:3px 5px;
     text-align: center;
@@ -21,4 +21,14 @@ li{
 li:hover{
     border:aqua 1px solid;
     transition: all .25s;
+}
+.smallLogo{
+    position:absolute;
+    bottom:0;
+    left:-19%;
+    width:25vmin;
+    
+}
+.imgContainer{
+    position: relative;
 }

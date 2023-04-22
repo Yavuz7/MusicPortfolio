@@ -16,9 +16,10 @@
     border: aqua 1px solid;
     transition: all .25s;
 }
-h2{
+.headerBg img{
     position: relative;
-    top:25%;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
     color:white;
-    font-size: 2.2rem !important;
 }
