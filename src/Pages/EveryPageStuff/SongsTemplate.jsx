@@ -2,6 +2,7 @@ import MusicCards from "./MusicCards"
 import "../EveryPageStuff/SongsTemplateStyle.css"
 import Container from 'react-bootstrap/Container';
 import NavBarMusic from "./NavBarMusic";
+import MusicCardCreator from "./MusicCardCreator";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
@@ -13,6 +14,7 @@ export default function SongsTemplate(){
             <Col>
             <Container>
                 <NavBarMusic/>
+                <MusicCardCreator/>
             </Container>
             </Col>
         
