@@ -13,31 +13,9 @@ export default function SongsTemplate(){
         <Row className="mb-4 position-relative">
             <Col>
             <Container>
-                <NavBarMusic/>
-                <MusicCardCreator/>
+                <NavBarMusic/>               
             </Container>
-            </Col>
-        
-        </Row>
-        <Row className="my-5 float-end position-relative start-0 ">       
-            <Col className="mt-3">             
-                <MusicCards className="musicCardDiv"/> 
-            </Col>  
-            <Col className="mt-3">
-                <MusicCards/> 
-            </Col>   
-            <Col className="spacer pe-5 col-8"></Col>
-            <Col className="spacer pe-5 col-8"></Col>        
-        </Row>
-        <Row className="mt-3 mb-5 float-end position-relative start-0 ">       
-            <Col className="">
-                <MusicCards/> 
-            </Col>  
-            <Col className="">
-                <MusicCards/> 
-            </Col>   
-            <Col className="spacer pe-5 col-8"></Col>
-            <Col className="spacer pe-5 col-8"></Col>        
+            </Col>     
         </Row>
        </Container>
     )
