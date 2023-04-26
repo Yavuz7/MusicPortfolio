@@ -1,9 +1,7 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
-  height:100%;
 }
 :root{
   --other-bg-color : rgba(0, 121, 121, 0.116) ;
@@ -12,18 +10,33 @@
   --other-bg-border-color:rgba(0, 255, 255, 0.24);
   --other-bg-color-noopacity: rgba(0, 135, 135, 0.368);
 }
-html{
-bottom: 0;
+
+@media screen and (max-width: 1880px) {
+	html {
+  	font-size: 12px;
+  }
 }
+@media screen and (max-width: 1400px) {
+	html {
+  	font-size: 8px;
+  }
+}
+@media screen and (max-width: 800px) {
+	html {
+  	font-size: 6px;
+  }
+}
+
 body {
   overflow-x: hidden;
-  background:linear-gradient(.95turn,rgb(28, 28, 28),45%,rgb(0, 0, 0))  !important;
-  background-repeat:repeat-x;
+  background:linear-gradient(.95turn,rgb(28, 28, 28),45%,rgb(0, 0, 0)) repeat-x scroll  !important;
+  background-color: rgb(0, 0, 0);
+  min-height: 100vh;
 }
 
 .logo {
-  height: 6em;
-  padding: 1.5em;
+  height: 6rem;
+  padding: 1.5rem;
   will-change: filter;
   transition: filter 300ms;
 }

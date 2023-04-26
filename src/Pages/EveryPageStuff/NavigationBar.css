@@ -4,6 +4,7 @@
     height: fit-content;
     z-index: 3;
     max-width: fit-content !important;
+    font-size: 2rem;
 }
 .nav-link{
     background-color: var(--other-bg-color);

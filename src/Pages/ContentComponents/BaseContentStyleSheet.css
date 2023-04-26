@@ -3,8 +3,8 @@ position: relative;
 display:flex;
 justify-content:center;
 left:8%;
-margin-top: 20vmin !important;
-margin-bottom: 4vmin !important;
+margin-top: 12rem !important;
+margin-bottom: 2rem !important;
 }
 
 .ContentContainer .card{
@@ -22,29 +22,25 @@ margin-bottom: 4vmin !important;
 }
 
 .featuredPlayer {
-    height: 15vmin;
+    height: 45%;
     position:absolute;
     top:15%;
-  padding-top: 56.25%;
+    padding-top: 60.25%;
+    margin-top: 3%;
 }
 .featuredCardBody {
     position: relative;
     left:48%;
     top:0%;
-    width: 50%;
-    font-size:2.2vmin;
+    padding:1rem;
+    min-height: 50%;
+    max-width: 50%;
+    font-size:1.8rem;
+}
+.aboutMeContent{
+    font-size: 2rem;
 }
 
-@media screen and (max-width: 600px) {
-    .ContentContainer{
-        margin-top: 80% !important;
-    }
-    .featuredCardBody{
-        width:100%;
-        font-size: 15px;
-    }
-    .featuredPlayer{
-        width: 100% !important;
-        height: 20px !important;
-    }
+@media screen and (max-width: 40em) {
+
 }

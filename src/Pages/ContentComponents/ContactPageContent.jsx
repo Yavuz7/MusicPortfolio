@@ -26,7 +26,7 @@ export default function ContactPageContent(event) {
     <Container className='ContentContainer'>
     <Card className='mt-5 text-start' style={{ width: '55vw', height: '60vmin' }}>    
       <Card.Body>
-        <Card.Title className='fs-4' >Contact Me</Card.Title>
+        <Card.Title className='' >Contact Me</Card.Title>
         <Form noValidate validated={validated} onSubmit={handleSubmit}>
         <Form.Group className='mb-2'>
           <Form.Label>Name</Form.Label>

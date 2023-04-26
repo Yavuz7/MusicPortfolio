@@ -14,7 +14,7 @@ export default function MusicPreviewPage() {
              <Col><WebsiteHeader/> </Col>                      
          </Row>
  
-         <Row className="px-4 my-5 xs={3}">
+         <Row className="px-4 my-5">
              <Col></Col>       
          </Row>
  

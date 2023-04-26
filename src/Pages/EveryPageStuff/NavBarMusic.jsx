@@ -11,7 +11,7 @@ export default function NavBarMusic(props){
     return ( 
       <>
        <Container className="my-5 mx-auto navBarMusic border-radius position-relative myNav">           
-          <Nav justify className="mx-5 me-auto fs-2 border-radius"> 
+          <Nav justify className="mx-5 me-auto border-radius"> 
           <NavItem>
           <Nav.Link as = {Button} className="nL px-5 text-light" onClick={() => props.categorySetter(0)}>Latest</Nav.Link>
          </NavItem>

@@ -1,6 +1,7 @@
 .navBarMusic{
     z-index: 2;
     max-width:fit-content !important;
+    font-size: 2rem;
 }
 .nL{
     background-color: var(--other-bg-color) !important;
