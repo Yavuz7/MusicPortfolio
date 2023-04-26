@@ -12,7 +12,8 @@ export default function ContactPage(){
         <Row>
             <Col><WebsiteHeader/> </Col>                      
         </Row>
-
+        <Row className="pt-5 mt-5"></Row>
+        <Row className="pt-5 mt-5"></Row>
         <Row className="pt-4">
            <ContactPageContent/>
         </Row>

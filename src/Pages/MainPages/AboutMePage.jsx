@@ -12,7 +12,8 @@ export default function AboutMePage(){
         <Row>
             <Col><WebsiteHeader/> </Col>                      
         </Row>
-
+        <Row className="pt-5 mt-5"></Row>
+        <Row className="pt-5 mt-5"></Row>
         <Row className="pt-5">
            <AboutMeContent/>
         </Row>
